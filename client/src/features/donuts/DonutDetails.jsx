@@ -35,7 +35,7 @@ function DonutDetails () {
             (<div className="donut-image-stub">No Image Available</div>)}
         </div>
         <p>{donut.description}</p>
-        <p>{donut.price}</p>
+        <p>${donut.price}</p>
         <Link to={`/menu/${donut.id}/edit`}>Edit</Link>
         {" | "}
         <Link to="/">Back to Menu</Link>

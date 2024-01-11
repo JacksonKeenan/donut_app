@@ -81,7 +81,7 @@ function DonutList() {
                                 )}
                             </div>
                             <p>{donut.description}</p>
-                            <p>{donut.price}</p>
+                            <p>${donut.price}</p>
                         </Link>
                         <div className='donut-links'>
                             <button onClick={() => navigate(`/menu/${donut.id}/edit`)}>Edit</button>

@@ -81,7 +81,7 @@ function ToppingList() {
                                 )}
                             </div>
                             <p>{topping.description}</p>
-                            <p>{topping.price}</p>
+                            <p>${topping.price}</p>
                         </Link>
                         <div className='topping-links'>
                             <button onClick={() => navigate(`/toppings/${topping.id}/edit`)}>Edit</button>

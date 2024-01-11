@@ -35,7 +35,7 @@ function ToppingDetails () {
             (<div className="topping-image-stub">No Image Available</div>)}
         </div>
         <p>{topping.description}</p>
-        <p>{topping.price}</p>
+        <p>${topping.price}</p>
         <Link to={`/toppings/${topping.id}/edit`}>Edit</Link>
         {" | "}
         <Link to="/toppings">Back to Toppings</Link>
